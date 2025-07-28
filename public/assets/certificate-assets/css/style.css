@@ -1,0 +1,106 @@
+* {
+  border-collapse: collapse;
+  font-family: 'lucidacalligraphyefregular';
+}
+
+html {
+  width: 100%;
+}
+
+@page {
+  size: auto;
+  margin: 30px 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #fff;
+  font-family: 'IBM Plex Sans';
+  font-size: 14px;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+  }
+}
+
+.print-area {
+  max-width: 800px;
+  background-image: url(../images/bg.jpg);
+  background-size: 100% 100%;
+  padding: 60px;
+  height: 550px;
+  margin: auto;
+}
+
+.print-area img.print-logo {
+  max-width: 300px;
+  margin: 20px 0 50px 30%;
+  display: block;
+}
+
+.print-area img.print-text {
+  max-width: 450px;
+  margin: 10px 0 0 20%;
+  display: block;
+}
+
+.print-area p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0;
+  font-family: 'lucidacalligraphyefregular';
+}
+
+.print-area .flex {
+  display: flex;
+  max-width: 80%;
+  margin: 0 0 0 15%;
+  font-family: 'lucidacalligraphyefregular';
+}
+
+
+.print-area .fnt {
+  font-family: 'lucidacalligraphyefregular';
+}
+
+.print-area .course-title {
+  font-size: 25px;
+}
+
+.learner-name {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 0px !important;
+  margin-top: 50px !important;
+  display: inline-block;
+  line-height: 10px;
+}
+
+.print-area .flex .badge {
+  width: 100px;
+  margin: 40px 0 0 90%;
+}
+
+.border {
+  background-color: #000;
+  height: 2px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.print-area .flex h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.print-area .flex h4 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
